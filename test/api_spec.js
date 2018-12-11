@@ -205,10 +205,13 @@ describe("api", function() {
       this.timeout(helper.TIMEOUT_MEDIUM);
       return cloudinary.v2.uploader.upload(IMAGE_FILE, {
         tags: UPLOAD_TAGS
-      }).then(({public_id}) =>
-        cloudinary.v2.api.resources({type: "upload"})
-          .then(result => [public_id, result])
-      ).then(([public_id, result]) => {
+      }).then(function ({public_id}) {
+          return cloudinary.v2.api.resources({type: "upload"})
+            .then(function (result) {
+              return [public_id, result];
+            });
+        }
+      ).then(function ([public_id, result]) {
         let resource = findByAttr(result.resources, "public_id", public_id);
         expect(resource).to.be.an(Object);
         expect(resource.type).to.eql("upload");
@@ -304,11 +307,12 @@ describe("api", function() {
       return cloudinary.v2.uploader.upload(IMAGE_FILE, {
         tags: UPLOAD_TAGS,
         eager: [EXPLICIT_TRANSFORMATION]
-      }).then(({public_id}) =>
-        cloudinary.v2.api.resource(public_id)
-          .then(resource => [public_id, resource])
+      }).then(function ({public_id}) {
+          return cloudinary.v2.api.resource(public_id)
+            .then(resource => [public_id, resource]);
+        }
       )
-        .then(([public_id, resource]) => {
+        .then(function ([public_id, resource]) {
           expect(resource).not.to.eql(void 0);
           expect(resource.public_id).to.eql(public_id);
           expect(resource.bytes).to.eql(3381);
@@ -586,14 +590,18 @@ describe("api", function() {
           name: name,
           folder: "folder"
         }))
-      ).then(() => cloudinary.v2.api.upload_presets()
+      ).then(function () {
+          return cloudinary.v2.api.upload_presets();
+        }
       ).then(({presets}) => presets.map(p => p.name)
-      ).then(presetList=>
-        PRESET_NAMES.forEach(p => expect(presetList).to.contain(p))
-      ).finally(() =>
-        Q.allSettled(
-          PRESET_NAMES.map(name => cloudinary.v2.api.delete_upload_preset(name))
-        )
+      ).then(function (presetList) {
+          return PRESET_NAMES.forEach(p => expect(presetList).to.contain(p));
+        }
+      ).finally(function () {
+          return Q.allSettled(
+            PRESET_NAMES.map(name => cloudinary.v2.api.delete_upload_preset(name))
+          );
+        }
       );
     });
     it("should allow getting a single upload_preset", function() {
@@ -872,8 +880,8 @@ describe("api", function() {
         expect(resource["bytes"]).to.eql(0);
         expect(resource["placeholder"]).to.eql(true);
       }));
-    it('should restore a deleted resource', ()=>
-      cloudinary.v2.api.restore(publicId).then(response => {
+    it('should restore a deleted resource', function () {
+      return cloudinary.v2.api.restore(publicId).then(response => {
         let info = response[publicId];
         expect(info).not.to.be(null);
         expect(info["bytes"]).to.eql(3381);
@@ -881,7 +889,8 @@ describe("api", function() {
       }).then(resource => {
         expect(resource).not.to.be(null);
         expect(resource["bytes"]).to.eql(3381);
-      }));
+      });
+    });
   });
   describe('mapping', function() {
     let deleteMapping = false;
