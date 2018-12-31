@@ -69,7 +69,7 @@ request and it will be used instead of the normal https agent. e.g
 ```js
 
 cloudinary.uploader.upload_stream(
-  function(result) { console.log(result); },
+  function(error, result) { console.log(result); },
   { agent: myAgent }
 );
 
@@ -107,7 +107,7 @@ The following example uploads a local JPG to the cloud:
 
  	var cloudinary = require('cloudinary')
 
-    cloudinary.uploader.upload("my_picture.jpg", function(result) { console.log(result) })
+    cloudinary.uploader.upload("my_picture.jpg", function(error, result) { console.log(result) })
 
 Below is an example of an upload's result:
 
@@ -129,7 +129,7 @@ The uploaded image is assigned a randomly generated public ID. The image is imme
 
 You can also specify your own public ID:
 
-    cloudinary.uploader.upload("http://www.example.com/image.jpg", function(result) { console.log(result) }, {public_id: 'sample_remote'})
+    cloudinary.uploader.upload("http://www.example.com/image.jpg", function(error, result) { console.log(result) }, {public_id: 'sample_remote'})
 
     cloudinary.url("sample_remote.jpg")
 
@@ -142,7 +142,7 @@ You can also specify your own public ID:
 You can use cloudinary.upload_stream to write to the uploader as a stream:
 
     var fs = require('fs');
-    var stream = cloudinary.uploader.upload_stream(function(result) { console.log(result); });
+    var stream = cloudinary.uploader.upload_stream(function(error, result) { console.log(result); });
     var file_reader = fs.createReadStream('my_picture.jpg', {encoding: 'binary'}).on('data', stream.write).on('end', stream.end);
 
 #### Version 1.1 upload_stream change notes
