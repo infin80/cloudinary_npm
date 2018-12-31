@@ -129,7 +129,7 @@ The uploaded image is assigned a randomly generated public ID. The image is imme
 
 You can also specify your own public ID:
 
-    cloudinary.uploader.upload("http://www.example.com/image.jpg", function(error, result) { console.log(result) }, {public_id: 'sample_remote'})
+    cloudinary.uploader.upload("http://www.example.com/image.jpg", {public_id: 'sample_remote'}, function(error, result) { console.log(result) })
 
     cloudinary.url("sample_remote.jpg")
 
