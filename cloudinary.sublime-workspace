@@ -1,0 +1,594 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"transp",
+				"transparent"
+			],
+			[
+				"center",
+				"center-block \tBootstrap 3 Class"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"des",
+				"designer"
+			],
+			[
+				"p",
+				"photo-mosaics.php"
+			],
+			[
+				"s",
+				"styles/"
+			],
+			[
+				"pop-art",
+				"pop-art-prints.php"
+			],
+			[
+				"Warhol",
+				"Warhol-like\t(index.php)"
+			],
+			[
+				"ease-out",
+				"ease-in-out\t(rgen_agency_min.css)"
+			],
+			[
+				"data-st",
+				"data-sticky\t(rgen.js)"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"in",
+				"initial"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"clea",
+				"clearfix\t(index.php)"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"cont",
+				"container"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Libsass Build/Sass (libsass).sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Libsass Build/Sass (libsass).sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "dis",
+		"selected_items":
+		[
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"set pre",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: en",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"Package Control: d",
+				"Package Control: Disable Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"Git: Co",
+				"Git: Commit"
+			],
+			[
+				"Git: A",
+				"Git: Add All"
+			],
+			[
+				"ginit",
+				"Git: Init"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git: init",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Preferences: GutterColor Settings – Default"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: res",
+				"Snippet: image-overlays"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"",
+				"Package Control: Disable Package"
+			],
+			[
+				"LiveReload: disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			]
+		],
+		"width": 544.0
+	},
+	"console":
+	{
+		"height": 165.0,
+		"history":
+		[
+			"import os; print os.getenv('PATH')",
+			"/Users/davidgrant/Sites/rgen-procollage/partials",
+			"Install Package",
+			"Package Control: Install Package",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/davidgrant/Sites/repositories/cloudinary_npm"
+	],
+	"file_history":
+	[
+		"/Users/davidgrant/Sites/repositories/infin80-2019/index4.html",
+		"/Users/davidgrant/Sites/repositories/infin80-2019/index.html",
+		"/Users/davidgrant/Sites/litae-infin80/the-litae/index4.html",
+		"/Users/davidgrant/Library/Caches/Transmit/CF678D48-BBF9-48EF-9EC9-33D3E3118DC0/ftp.infin80.com/public_html/resume/.htaccess",
+		"/Users/davidgrant/Library/Caches/Transmit/5427C7CD-AD19-40EE-B7DD-8FD2BE5725F3/ftp.infin80.com/public_html/.htaccess",
+		"/Users/davidgrant/Sites/resumeSite/.htaccess",
+		"/Users/davidgrant/Sites/css-grid-procollage/anf.html",
+		"/Users/davidgrant/Desktop/NotesV6-design_infin80 HTML/NotesV6.storedata-wal",
+		"/Users/davidgrant/Sites/resumeSite/css/prettyPhoto.css",
+		"/Users/davidgrant/Sites/resumeSite/css/style.min.css",
+		"/Users/davidgrant/Sites/resumeSite/css/main.css",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/Goto-CSS-Declaration/goto_css_declaration.sublime-settings",
+		"/Users/davidgrant/.bash_profile",
+		"/Users/davidgrant/Sites/resumeSite/js/typed.min.js",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/HTMLBeautify.sublime-settings",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/JSLint.sublime-settings",
+		"/Users/davidgrant/Sites/resumeSite/index.php",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/Users/davidgrant/Sites/resumeSite/js/radial-pie.js",
+		"/Users/davidgrant/Desktop/OnStartup.cs",
+		"/Users/davidgrant/Downloads/us.sitesucker.mac.sitesucker/tony-jin.com/html/home.html",
+		"/Users/davidgrant/Desktop/ORGANIZE!/WEB/elpis v1 - Minimal 5PG 3D IMG Cards BS4 Sideways Links DOCU/Elpis template/index.html",
+		"/Users/davidgrant/Sites/repositories/resumesite/index.php",
+		"/Users/davidgrant/Sites/agnatty-GER-slick-scroll-page-ani/agantty.com/index.php",
+		"/Users/davidgrant/Sites/resumeSite/css/font-awesome-dg.css",
+		"/Users/davidgrant/Sites/resumeSite/css/dg-vanilla-form.css",
+		"/Users/davidgrant/Sites/resumeSite/css/style.css",
+		"/Users/davidgrant/Desktop/menu.php",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/LiveStyle/LiveStyle.sublime-settings",
+		"/Users/davidgrant/Sites/resumeSite/php/standard-contact-form.php",
+		"/Users/davidgrant/Sites/resumeSite/js/vanilla-form.js",
+		"/Users/davidgrant/Desktop/Bookmarks.bak",
+		"/Users/davidgrant/Sites/procollage-BUP/index.php",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/HTMLPrettify.sublime-settings",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/Default (OSX).sublime-keymap",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/.jsbeautifyrc",
+		"/Users/davidgrant/Sites/procollage-BUP/procollage-server.json",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
+		"/Users/davidgrant/Sites/procollage-BUP/css/bootstrapF.min.css",
+		"/Users/davidgrant/Sites/procollage-BUP/inc/head.php",
+		"/Users/davidgrant/Sites/procollage-BUP/photo-gift-idea.php",
+		"/Users/davidgrant/Sites/procollage-BUP/photo-collaging-tips.php",
+		"/Users/davidgrant/Sites/procollage-BUP/professional-photo-collage.php",
+		"/Users/davidgrant/Sites/procollage-BUP/custom-photo-collage-prices.php",
+		"/Users/davidgrant/Sites/procollage-BUP/css/theme.min.css",
+		"/Users/davidgrant/Sites/procollage-BUP/css/theme.min.min.css",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/inc/footer.php",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/css/bootstrapF.min.css",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/css/bootstrapF.min.min.css",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/css/theme.min.css",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/css/bootstrap-min.css",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/inc/head.php",
+		"/Users/davidgrant/Sites/css-grid-procollage/css-grid.sublime-project",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/BracketFlasher/BracketFlasher.sublime-settings",
+		"/Users/davidgrant/Sites/css-grid-procollage/css-grid-procollage.sublime-workspace",
+		"/Users/davidgrant/Sites/css-grid-procollage/cssgrid.sublime-workspace",
+		"/Users/davidgrant/Sites/css-grid-procollage/cssgrid.sublime-project",
+		"/Users/davidgrant/Sites/css-grid-procollage/occasions/mothers-day.php",
+		"/Users/davidgrant/Sites/css-grid-procollage/mothers-day.php",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/BracketFlasher.sublime-settings",
+		"/Users/davidgrant/Sites/css-grid-procollage/index.html",
+		"/Users/davidgrant/Sites/procollage15/inc/head.php",
+		"/Users/davidgrant/Sites/procollage15/css/theme.min.css",
+		"/Users/davidgrant/Sites/procollage15/css/theme.min.min.css",
+		"/Users/davidgrant/Sites/procollage15/index.php",
+		"/Users/davidgrant/Sites/procollage15/inc/footer.php",
+		"/Users/davidgrant/Sites/procollage15/index-noPHP_ROOT.php",
+		"/Users/davidgrant/Sites/resumeSite/source/index.php",
+		"/Users/davidgrant/Sites/resumeSite/source/css/main.css",
+		"/Users/davidgrant/Sites/resumeSite/source/css/style.css",
+		"/Users/davidgrant/Sites/resumeSite/source/dist/script.js",
+		"/Users/davidgrant/Sites/resumeSite/source/full/main.js",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/Users/davidgrant/Sites/resumeSite/source/dist/main.min.js",
+		"/Users/davidgrant/Sites/Modern Responsive Blank Starter Email Template.html",
+		"/Users/davidgrant/Sites/resumeSite/source/min/style.min.css",
+		"/Users/davidgrant/Sites/resumeSite/source/ubergallery/resources/UberGallery.php",
+		"/Users/davidgrant/Sites/resumeSite/source/ubergallery/resources/themes/uber-responsive/index.php",
+		"/Users/davidgrant/Sites/resumeSite/source/css/style.min.css",
+		"/Users/davidgrant/Sites/resumeSite/source/ubergallery/resources/colorbox/5/colorbox.css",
+		"/Users/davidgrant/Sites/resumeSite/source/ubergallery/resources/galleryConfig.ini",
+		"/Users/davidgrant/Sites/resumeSite/source/ubergallery/resources/colorbox/jquery.colorbox.js",
+		"/Users/davidgrant/Desktop/AndroidManifest.xml",
+		"/Users/davidgrant/Sites/infin80/infinity-animation-js-loop.html",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/inc/headREAL.php",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/js/myscript.min.js2",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/css/theme.css",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/css/bootstrap.css",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/css/skin.css",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/js/jquery.mobile.customized.min.js",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/img/paypal-credit-cards.png",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/css/bootstrap-responsive.css",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/css/prettyPhoto.css",
+		"/Users/davidgrant/Sites/procollage-BU-9.4.16/inc/messagebar.php",
+		"/Users/davidgrant/IMAGES/Stock Photos HD/Web Site Building/Web Sites/Backed Up to GDrive (+35 Not Shown Here)/Warhol v1.0.1 - Awesome Huge Templates DOCU Timber Shop/HTML/index-agency.html",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/SublimeOnSaveBuild/README.md",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/ColorHelper/color_helper.sublime-settings",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/color_helper.sublime-settings",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/davidgrant/Desktop/stripe-navigation/index.html",
+		"/Users/davidgrant/Sites/pro-collage/js/magnific-popup-v1.1.0.js",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/davidgrant/Sites/rgen-procollage/.libsass.json",
+		"/Users/davidgrant/Sites/rgen-procollage/css/custom.css",
+		"/Users/davidgrant/Sites/rgen-procollage/lib/BigText-master/demo/bigtextWizard.css",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/Libsass Build/Libsass Build.sublime-settings",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/css_style_completions.sublime-settings",
+		"/Users/davidgrant/Sites/rgen-procollage/package.json",
+		"/Users/davidgrant/Sites/rgen-procollage/.sublime-build",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/davidgrant/Library/Application Support/Sublime Text 3/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/Users/davidgrant/Sites/rgen-procollage/scss/.sassbuilder-config",
+		"/Users/davidgrant/Desktop/codecanyon-6372959-cube-portfolio-responsive-jquery-grid-plugin/templates/multiple-grids/ajax-juicy-projects/project5.html",
+		"/Users/davidgrant/Sites/rgen-procollage/css/configstyle.css",
+		"/Users/davidgrant/Sites/rgen-procollage/js/rgen.js",
+		"/Users/davidgrant/Sites/rgen-procollage/index4.html",
+		"/Users/davidgrant/Sites/rgen-procollage/index5.html",
+		"/Users/davidgrant/Sites/rgen-procollage/minify/rgen_min.css",
+		"/Users/davidgrant/Sites/rgen-procollage/index.html",
+		"/Users/davidgrant/Sites/rgen-procollage/index3.html"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 102.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.git-commit":
+	{
+		"height": 124.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Libsass Build/Sass (libsass).sublime-build",
+	"project": "cloudinary.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
